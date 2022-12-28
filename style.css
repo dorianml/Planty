@@ -1,0 +1,88 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2023.1671726716
+Updated: 2022-12-22 16:31:56
+
+*/
+main {
+    font-family: 'Syne', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+    align-items: center;
+    height: 150px;
+    font-family: 'Syne', sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+.menu a{
+   text-decoration: none;
+   color: inherit;
+   font-weight: 500;
+
+}
+
+.menu li{
+    padding: 30px 61px 30px 61px;
+}
+
+.menu li:last-child{
+    background-color: #DC9F96 ;
+}
+.menu li:last-child a{
+ color: white;
+ font-weight: 600;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aquamarine;
+    align-items: center;
+    height: 150px;
+}
+
+#logo {
+    height: 19px;
+    width: auto ;
+    margin-left: 38px;
+}
+
+#footer {
+    width: 100vw;
+    height: auto;
+}
+
+#mentionsLegales {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+
+}
+
+#mentionsLegales a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
