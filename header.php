@@ -17,11 +17,9 @@
             <div id="branding">
                 <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
                     <?php
-                    if (is_front_page() || is_home() || is_front_page() && is_home()) {
                         echo '<a href="' . esc_url(home_url('/')) . '">
                         <img id="logo" src=" ' . get_template_directory_uri() . "-child" . '/images/logo.png">
                         </a>';
-                    }
                     ?>
                 </div>
                 <div id="site-description" <?php if (!is_single()) {
@@ -29,7 +27,7 @@
                                             } ?>><?php bloginfo('description'); ?></div>
             </div>
             <nav id="menu" class="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
-                <?php wp_nav_menu(array(['theme_location' => 'menu',
+                <?php wp_nav_menu(array(['theme_location' => 'menuHeader',
                                          'container' => false,
                                           'link_before' => '<span itemprop="name">',
                                            'link_after' => '</span>',
