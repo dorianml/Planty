@@ -18,7 +18,7 @@
                 <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
                     <?php
                         echo '<a href="' . esc_url(home_url('/')) . '">
-                        <img id="logo" src=" ' . get_template_directory_uri() . "-child" . '/images/logo.png">
+                        <img id="logo" src=" ' . get_template_directory_uri() . "-child" . '/images/logo.png" alt="logo-planty">
                         </a>';
                     ?>
                 </div>
@@ -27,12 +27,18 @@
                                             } ?>><?php bloginfo('description'); ?></div>
             </div>
             <nav id="menu" class="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
-                <?php wp_nav_menu(array(['theme_location' => 'menuHeader',
-                                         'container' => false,
-                                          'link_before' => '<span itemprop="name">',
-                                           'link_after' => '</span>',
-                                           'menu_class' => 'navBar-header'
-                                           ])); ?>
+            <?php if(is_user_logged_in()) : ?>
+                <div class="admin_menu">
+                    <a target="_blank" href="<?php echo admin_url(); ?>"> Admin </a> 
+                </div>
+            <?php endif; ?>
+                <?php 
+                    wp_nav_menu(array(['theme_location' => 'menuHeader',
+                                             'container' => false,
+                                              'link_before' => '<span itemprop="name">',
+                                               'link_after' => '</span>',
+                                               'menu_class' => 'navBar-header']))
+                ?>
             </nav>
         </header>
         <div id="container">

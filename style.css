@@ -11,224 +11,323 @@ Updated: 2022-12-22 16:31:56
 
 */
 body {
-    font-family: 'Syne', sans-serif;
-    color: black;
-    font-weight: 400;
-    margin: 0px ;
+  font-family: "Syne", sans-serif;
+  color: black;
+  font-weight: 400;
+  margin: 0px;
 }
 
 #header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    align-items: center;
-    height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
 }
 
 .menu {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.menu a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#menu-item-22 {
+  display: flex;
+  align-items: center;
+}
+.menu a:hover {
+  font-weight: bold;
+}
+
+.menu li {
+  text-align: center;
+  padding: 30px 61px 30px 61px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.menu li:last-child {
+  background-color: #dc9f96;
+}
+.menu li:last-child:hover {
+  background-color: #c02e44;
+}
+
+.menu li:last-child a {
+  color: white;
+  font-weight: 600;
+}
+.menu li:last-child a:hover {
+  color: white;
+  font-weight: 600;
+}
+
+.admin_menu {
     display: flex;
-    flex-direction: row;
-}
-.menu a{
-   text-decoration: none;
-   color: inherit;
-   font-weight: 500;
-}
-
-.menu li{
-    padding: 30px 61px 30px 61px;
-}
-
-.menu li:last-child{
-    background-color: #DC9F96 ;
-}
-
-#menu-item-23:hover{
-    background-color: #C02E44;
-}
-.menu li:last-child a{
-    color: white;
-    font-weight: 600;
+    align-items: center ;
+    font-family: inherit;
 }
 
 #footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* height: 150px; */
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* height: 150px; */
+  width: 100%;
+  justify-content: center;
 }
 #footerPinkBackground {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-        width: 100%;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
 
 #footerImage {
-width: 100%;
+  width: 100%;
 }
 
 #logo {
-    height: 19px;
-    width: auto ;
-    margin-left: 38px;
+  height: 19px;
+  width: auto;
+  margin-left: 38px;
 }
 
-
 .menuFooter {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 
-        width: 100%;
-        height: 60px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    
-    .menuFooter a {
-        text-decoration: none;
-        color: inherit;
-        width: 100%; 
-    }
-    
-
-
-
-/* CSS Plugin WPFORM  */
+.menuFooter a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
 
 /** (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((( WPFORMS CONTACT ))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) **/
 
-.wpforms-form {
-    justify-items: center !important;
-    align-content: center !important;
-    align-content: center !important;
-   }
-    
-
-.wpforms-form label{
-    font-size: 18px !important;
-    font-weight: 500 !important;
-   }
-    
-   /** WPFORMS Input Textarea **/
-   .wpforms-form input, .wpforms-form textarea {
-    width: 400px!important;
-   }
-    
-   /** WPFORMS BUTTON COLOR **/
-   .wpforms-form button{
-    
-   }
-    
-   /** WPFORMS SUBMIT BUTTON **/
-   button.wpforms-submit{
-    text-align: center !important;
-    border-radius: 10px !important;
-    color:#FFFFFF!important; 
-    background-color: #E0B9B4 !important; 
-    font-family: inherit !important;
-    width: 150px !important;
-   }
-    
-   /** WPFORMS SUBMIT BUTTON Hover **/
-   button.wpforms-submit:hover{
-    color:rgb(255, 255, 255)!important; 
-    background-color: #C02E44
-    !important; 
-   }
-
-   .frm_combo_inputs_container, .frm_grid_container, .frm_form_fields .frm_section_heading, .frm_form_fields .frm_fields_container {
-
-    margin: 0 20%;
+#wpforms-130 {
+  width: 500px;
 }
 
-
-   /** (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((( WPFORM COMMANDE ))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) **/
-
-#wpforms-form-300 label{
-    font-size: 10px !important;
-    color: black !important;
+.wpforms-container .wpforms-container-full .sendButton {
+  width: 800px;
+  justify-content: center;
+  display: flex;
+  color: black;
 }
-#wpforms-form-300 input{
-    width: 100% !important;
-    height: 60px !important;
+
+#wpforms-130-field_1-container label {
+  color: black !important;
+}
+#wpforms-130-field_2-container label {
+  color: black !important;
+}
+#wpforms-130-field_3-container label {
+  color: black !important;
+}
+
+/** WPFORMS SUBMIT BUTTON **/
+button.wpforms-submit {
+  text-align: center !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  background-color: #e0b9b4 !important;
+  font-family: inherit !important;
+  width: 150px !important;
+  height: 60px !important;
+  width: 200px !important;
+}
+
+/** WPFORMS SUBMIT BUTTON Hover **/
+button.wpforms-submit:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: #c02e44 !important;
+}
+
+.frm_combo_inputs_container,
+.frm_grid_container,
+.frm_form_fields .frm_section_heading,
+.frm_form_fields .frm_fields_container {
+  margin: 0 20%;
+}
+
+/** (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((( WPFORM COMMANDE ))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) **/
+
+#wpforms-form-300 label {
+  font-size: 10px !important;
+  color: black !important;
+}
+#wpforms-form-300 input {
+  width: 100% !important;
+  height: 60px !important;
 }
 #wpforms-form-300 {
-    justify-content: space-between !important;
-
+  justify-content: space-between !important;
 }
 
-
 #wpforms-submit-323 {
-    width: 198px !important;
+  width: 198px !important;
 }
 
 #wpforms-323-field_7 {
-    height: 71px !important;
-    width: 530px !important;
-    border-radius: 12px;
+  height: 71px !important;
+  width: 530px !important;
+  border-radius: 12px;
 }
 #wpforms-323-field_8 {
-    height: 71px !important;
-    width: 530px !important;
-    border-radius: 12px;
+  height: 71px !important;
+  width: 530px !important;
+  border-radius: 12px;
 }
 #wpforms-323-field_9 {
-    height: 71px !important;
-    width: 530px !important;
-    border-radius: 12px;
-
+  height: 71px !important;
+  width: 530px !important;
+  border-radius: 12px;
 }
 #wpforms-323-field_10 {
-    height: 71px !important;
-    width: 530px !important;
-    border-radius: 12px;
-
+  height: 71px !important;
+  width: 530px !important;
+  border-radius: 12px;
 }
 #wpforms-323-field_11 {
-    height: 71px !important;
-    width: 530px !important;
-    border-radius: 12px;
-
+  height: 71px !important;
+  width: 530px !important;
+  border-radius: 12px;
 }
 #wpforms-323-field_12 {
-    height: 71px !important;
-    width: 530px !important;
-    border-radius: 12px;
-
+  height: 71px !important;
+  width: 530px !important;
+  border-radius: 12px;
 }
 
 .wpforms-field-container {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 .wpforms-submit-container {
-    text-align: center !important;
-    padding-top: 40px !important;
+  text-align: center !important;
+  padding-top: 40px !important;
 }
 
 .wp-commande-submitButton {
-    border: none !important;
-    height: 55px !important;
-    width: 190px !important;
+  border: none !important;
+  height: 55px !important;
+  width: 190px !important;
 }
 
-.wpforms-submit .wp-commande-submitButton{
-    height: 80px !important;
-    width: 240px !important;
+.wpforms-submit .wp-commande-submitButton {
+  height: 80px !important;
+  width: 240px !important;
 }
 .wpforms-field-label {
-    color: white !important;
-    
+  color: white !important;
 }
 
 label .wpforms-field-label {
-    font-size: 15px !important;
+  font-size: 15px !important;
 }
 
+/* (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((( MEDIA QUERYS )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
 
+@media screen and (max-width: 700px) {
+  /* (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((( HEADER )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+  #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 16px;
+  }
+  .menu li {
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    font-weight: 200;
+    width: 200px;
+  }
+  .menu li:first-child {
+    text-align: center;
+    padding: 10px 0px 16px 20px;
+    font-weight: 200;
+    width: 180px;
+  }
+  .menu-menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #menu-menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .menu a {
+    font-size: 14px;
+  }
+.admin_menu {
+  height: 60px;
+justify-content: center;
+text-decoration: underline;
+}
+  #logo {
+    margin-bottom: 16px;
+  }
+
+        <header id="header" role="banner">
+  /* (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((( FOOTER )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+
+  .menuFooter a {
+    font-size: 12px;
+  }
+  .menuFooter {
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+  /* (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((( WP FORM CONTACT )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+
+  #wpforms-130 {
+    width: 300px;
+  }
+
+  /* (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((( WP FORM COMMANDE )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+  #wpforms-323-field_7 {
+    height: 30px !important;
+  }
+  #wpforms-323-field_8 {
+    height: 30px !important;
+  }
+  #wpforms-323-field_9 {
+    height: 30px !important;
+  }
+  #wpforms-323-field_10 {
+    height: 30px !important;
+  }
+  #wpforms-323-field_11 {
+    height: 30px !important;
+  }
+  #wpforms-323-field_12 {
+    height: 30px !important;
+  }
+}
